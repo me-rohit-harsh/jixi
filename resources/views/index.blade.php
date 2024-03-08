@@ -70,7 +70,7 @@
                 <ul class="links">
                     <li>
                         <a href="/">Home</a> </li>
-                    
+                    <li>
                         <a href="#" class="desktop-link">Domains</a>
                         <input type="checkbox" id="show-domains">
                         <label for="show-domains">Domains</label>
