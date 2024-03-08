@@ -37,8 +37,8 @@
                 <input type="checkbox" id="show-menu">
                 <ul class="links">
                     <li>
-                        <a href="/">Home</a </li>
-                    <li>
+                        <a href="/">Home</a> </li>
+                   
                         <a href="#" class="desktop-link">Domains</a>
                         <input type="checkbox" id="show-domains">
                         <label for="show-domains">Domains</label>
@@ -225,7 +225,7 @@
                             <li>24*7 Support</li>
                         </ul>
                         <div class="planMore"> <a
-                                href="https://jixicloud.com/user/cart.php?a=add&pid=1&carttpl=lagom2">Buy Now</a> </div>
+                                href="{{route('buy.hosting')}}">Buy Now</a> </div>
                     </div>
                 </div>
 
@@ -280,7 +280,7 @@
                             <li>24*7 Support</li>
                         </ul>
                         <div class="planMore"> <a
-                                href="https://jixicloud.com/user/cart.php?a=add&pid=2&carttpl=lagom2">Buy Now</a> </div>
+                               href="{{route('buy.hosting')}}">Buy Now</a> </div>
                     </div>
                 </div>
 
@@ -329,7 +329,7 @@
                             <li>24*7 Support</li>
                         </ul>
                         <div class="planMore"> <a
-                                href="https://jixicloud.com/user/cart.php?a=add&pid=3&carttpl=lagom2">Buy Now</a> </div>
+                                href="{{route('buy.hosting')}}">Buy Now</a> </div>
                     </div>
                 </div>
             </div>

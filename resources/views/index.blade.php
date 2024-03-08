@@ -69,8 +69,8 @@
                 <input type="checkbox" id="show-menu">
                 <ul class="links">
                     <li>
-                        <a href="/">Home</a </li>
-                    <li>
+                        <a href="/">Home</a> </li>
+                    
                         <a href="#" class="desktop-link">Domains</a>
                         <input type="checkbox" id="show-domains">
                         <label for="show-domains">Domains</label>
@@ -285,7 +285,7 @@
                             <li>7 Days Refund</li>
                             <li>24*7 Support</li>
                         </ul>
-                        <div class="planMore"> <a href="https://jixicloud.com/cloud-hosting">View More</a> </div>
+                        <div class="planMore"> <a href="{{route('jixi.hosting')}}">View More</a> </div>
                     </div>
                 </div>
 
@@ -328,7 +328,7 @@
                             <li>7 Days Refund</li>
                             <li>24*7 Support</li>
                         </ul>
-                        <div class="planMore"> <a href="https://jixicloud.com/cloud-hosting">View More</a> </div>
+                        <div class="planMore"> <a href="{{route('jixi.hosting')}}">View More</a> </div>
                     </div>
                 </div>
 
@@ -365,7 +365,7 @@
                             <li>7 Days Refund</li>
                             <li>24*7 Support</li>
                         </ul>
-                        <div class="planMore"> <a href="https://jixicloud.com/cloud-hosting">View More</a> </div>
+                        <div class="planMore"> <a href="{{route('jixi.hosting')}}">View More</a> </div>
                     </div>
                 </div>
             </div>
