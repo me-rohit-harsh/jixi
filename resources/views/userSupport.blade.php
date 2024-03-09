@@ -62,7 +62,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-actions flex-center">
-                                                <button type="submit" class="btn btn-primary SubmitButton ">Send Message</button>
+                                                <button type="button" class="btn btn-primary SubmitButton ">Send Message</button>
                                             </div>
                                         </form>
                                     </div>
@@ -163,7 +163,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-default btn-sm">
+                                    <button type="button" class="btn btn-default btn-sm">
                                         <i class="ls ls-plus"></i>
                                         Generate new password
                                     </button>

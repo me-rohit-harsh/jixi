@@ -327,13 +327,13 @@ color: #fff;
                                     -----
                                 </li>
         
-                                <li menuItemName="Network Status" class=" " id="Primary_Navbar-Support-Network_Status">
+                                {{-- <li menuItemName="Network Status" class=" " id="Primary_Navbar-Support-Network_Status">
                                     <a href="/user/serverstatus">
                                        <i class="fas fa-solid fa-signal"></i>
                                         Network Status
                                     </a>
                                 </li>
-        
+         --}}
                                 <li menuItemName="Knowledgebase" class=" " id="Primary_Navbar-Support-Knowledgebase">
                                     <a href="/user/knowledgebase">
                                         <i class="far fa-regular fa-file"></i>

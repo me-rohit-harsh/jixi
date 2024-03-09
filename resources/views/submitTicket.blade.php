@@ -168,7 +168,7 @@
                             </div>
                             <div id="autoAnswerSuggestions" class="m-t-4x"></div>
                             <div class="form-actions">
-                                <input type="submit" id="openTicketSubmit" value="Submit"
+                                <input type="button" id="openTicketSubmit" value="Submit"
                                     class="SubmitButton btn btn-lg btn-primary disable-on-click" />
                                 <a href="submitticket" class=" btn btn-lg btn-default">Cancel</a>
                             </div>
@@ -270,7 +270,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm">
                                     <i class="ls ls-plus"></i>
                                     Generate new password
                                 </button>

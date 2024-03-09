@@ -39,7 +39,7 @@
                                             placeholder="Enter email" autofocus>
                                     </div>
     
-                                    <button type="submit" class="SubmitButton btn btn-lg btn-primary btn-block">
+                                    <button type="button" class="SubmitButton btn btn-lg btn-primary btn-block">
                                         <span class="btn-text">
                                             Submit
                                         </span>
@@ -139,7 +139,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-default btn-sm">
+                                    <button type="button" class="btn btn-default btn-sm">
                                         <i class="ls ls-plus"></i>
                                         Generate new password
                                     </button>

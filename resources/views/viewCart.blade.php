@@ -195,7 +195,7 @@
                                         Are you sure you want to empty your shopping cart?
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="submit" class="btn btn-primary" data-btn-loader>
+                                        <button type="button" class="btn btn-primary" data-btn-loader>
                                             <span>Yes</span>
                                             <div class="loader loader-button hidden">
     
@@ -235,7 +235,7 @@
                                         Are you sure you want to remove this item from your cart?
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="submit" class="btn btn-primary" data-btn-loader>
+                                        <button type="button" class="btn btn-primary" data-btn-loader>
                                             <span>Yes</span>
                                             <div class="loader loader-button hidden">
     
@@ -448,7 +448,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-default btn-sm">
+                                    <button type="button" class="btn btn-default btn-sm">
                                         <i class="ls ls-plus"></i>
                                         Generate new password
                                     </button>

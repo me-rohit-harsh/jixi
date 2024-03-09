@@ -181,7 +181,7 @@
                                             </div>
                                         </div>
                                         <div class="inline-form-element">
-                                            <button class="btn btn-lg btn-primary SubmitButton" type="submit">
+                                            <button class="btn btn-lg btn-primary SubmitButton" type="button">
                                                 <span>Check</span>
                                                 <div class="loader loader-button">
     
@@ -306,7 +306,7 @@
                                             </div>
                                         </div>
                                         <div class="inline-form-element">
-                                            <button type="submit" class="btn btn-lg btn-primary SubmitButton">
+                                            <button type="button" class="btn btn-lg btn-primary SubmitButton">
                                                 <span>Transfer</span>
                                                 <div class="loader loader-button">
     
@@ -334,7 +334,7 @@
                                                 data-placement="top" data-trigger="manual" title="Required" />
                                         </div>
                                         <div class="inline-form-element">
-                                            <button type="submit" class="btn btn-lg btn-primary SubmitButton">
+                                            <button type="button" class="btn btn-lg btn-primary SubmitButton">
                                                 <span>Use</span>
                                                 <div class="loader loader-button">
     
@@ -510,7 +510,7 @@
                                                 </div>
                                                 <div class="message-actions">
                                                     <div class="btn-group btn-group-remove">
-                                                        <button type="submit"
+                                                        <button type="button"
                                                             class="btn btn-lg btn-primary-faded btn-add-to-cart"
                                                             data-product-domain=true data-whois="0" data-domain="">
                                                             <span class="to-add">Add to Cart</span>
@@ -591,7 +591,7 @@
                                                 </div>
                                             </div>
                                             <div class="message-actions">
-                                                <button type="submit" class="btn btn-primary btn-lg">
+                                                <button type="button" class="btn btn-primary btn-lg">
                                                     <i class="ls ls-share m-r-8"></i>Continue
                                                 </button>
                                             </div>
@@ -956,7 +956,7 @@
                                         <span class="m-l-1x">domain(s) selected</span>
                                     </div>
                                     <div class="sticky-actions">
-                                        <button id="btnDomainContinue" type="submit" class="btn btn-lg btn-primary"
+                                        <button id="btnDomainContinue" type="button" class="btn btn-lg btn-primary"
                                             disabled="disabled" data-btn-loader>
                                             <span><i class="ls ls-share"></i><span class="btn-text">Continue</span></span>
                                             <div class="loader loader-button hidden">
@@ -1136,7 +1136,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-default btn-sm">
+                                    <button type="button" class="btn btn-default btn-sm">
                                         <i class="ls ls-plus"></i>
                                         Generate new password
                                     </button>
