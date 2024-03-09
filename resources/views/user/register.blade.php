@@ -1144,10 +1144,10 @@
         if (password2 && password1 !== password2) {
             $newPassword2.removeClass('has-success').addClass('has-error');
             jQuery("#inputNewPassword2Msg").html('<p class="help-block" id="nonMatchingPasswordResult">The passwords entered do not match</p>');
-            jQuery('input[type="submit"]').attr('disabled', 'disabled');        } else {
+            jQuery('input[type="button"]').attr('disabled', 'disabled');        } else {
             if (password2) {
                 $newPassword2.removeClass('has-error').addClass('has-success');
-                jQuery('input[type="submit"]').removeAttr('disabled');            } else {
+                jQuery('input[type="button"]').removeAttr('disabled');            } else {
                 $newPassword2.removeClass('has-error has-success');
             }
             jQuery("#inputNewPassword2Msg").html('');
@@ -1155,7 +1155,7 @@
     }
 
     jQuery(document).ready(function(){
-        jQuery('.using-password-strength input[type="submit"]').attr('disabled', 'disabled');        jQuery("#inputNewPassword2").keyup(function() {
+        jQuery('.using-password-strength input[type="button"]').attr('disabled', 'disabled');        jQuery("#inputNewPassword2").keyup(function() {
             validatePassword2();
         });
     });
@@ -1210,7 +1210,7 @@
                                 </div>
 
                                 <div class="form-actions">
-                                    <button type="submit" class=" SubmitButton btn btn-lg btn-primary btn-block ">
+                                    <button type="button" class=" SubmitButton btn btn-lg btn-primary btn-block ">
                                         <span class="btn-text ">
                                             Register
                                         </span>
@@ -1331,7 +1331,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm">
                                     <i class="ls ls-plus"></i>
                                     Generate new password
                                 </button>

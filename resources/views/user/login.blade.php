@@ -57,7 +57,7 @@
                                         <input class="icheck-control" type="checkbox" name="rememberme" /> Remember Me
                                     </label>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary SubmitButton btn-block " id="login"
+                                <button type="button" class="btn btn-lg btn-primary SubmitButton btn-block " id="login"
                                     tabindex="4">
                                     <span class="btn-text">
                                         Login
@@ -260,7 +260,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm">
                                     <i class="ls ls-plus"></i>
                                     Generate new password
                                 </button>

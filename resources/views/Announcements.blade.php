@@ -52,14 +52,14 @@
                                     </h5>
                                 </div>
                                 <div class="list-group">
-                                    <a menuItemName="Older" href="/user/announcements/view/older"
+                                    <a menuItemName="Older" href="#"
                                         class="list-group-item" id="Primary_Sidebar-Announcements_Months-Older">
-                                        <i class="fas fa-ticket ls ls-hourglass"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-hourglass"></i> --}}
                                         Older Announcements...
                                     </a>
-                                    <a menuItemName="RSS Feed" href="/user/announcements/rss" class="list-group-item"
+                                    <a menuItemName="RSS Feed" href="#" class="list-group-item"
                                         id="Primary_Sidebar-Announcements_Months-RSS_Feed">
-                                        <i class="fas fa-ticket ls ls-rss"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-rss"></i> --}}
                                         View RSS Feed
                                     </a>
                                 </div>
@@ -70,39 +70,39 @@
                             <div menuItemName="Support" class="panel panel-sidebar ">
                                 <div class="panel-heading">
                                     <h5 class="panel-title">
-                                        <i class="far fa-life-ring"></i>&nbsp; Support
+                                        {{-- <i class="far fa-life-ring"></i>&nbsp; Support --}}
                                         <i class="fa fa-chevron-up panel-minimise pull-right"></i>
                                     </h5>
                                 </div>
                                 <div class="list-group">
                                     <a menuItemName="Support Tickets" href="/user/submitticket"
                                         class="list-group-item" id="Secondary_Sidebar-Support-Support_Tickets">
-                                        <i class="fas fa-ticket ls ls-ticket-tag"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-ticket-tag"></i> --}}
                                         My Support Tickets
                                     </a>
                                     <a menuItemName="Announcements" href="/user/announcements"
                                         class="list-group-item active" id="Secondary_Sidebar-Support-Announcements">
-                                        <i class="fas fa-ticket ls ls-text-cloud"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-text-cloud"></i> --}}
                                         Announcements
                                     </a>
                                     <a menuItemName="Knowledgebase" href="/user/knowledgebase" class="list-group-item"
                                         id="Secondary_Sidebar-Support-Knowledgebase">
-                                        <i class="fas fa-ticket ls ls-document-info"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-document-info"></i> --}}
                                         Knowledgebase
                                     </a>
-                                    <a menuItemName="Downloads" href="/user/download" class="list-group-item"
+                                    {{-- <a menuItemName="Downloads" href="/user/download" class="list-group-item"
                                         id="Secondary_Sidebar-Support-Downloads">
                                         <i class="fas fa-ticket ls ls-download-square"></i>
                                         Downloads
-                                    </a>
-                                    <a menuItemName="Network Status" href="/user/serverstatus.php"
+                                    </a> --}}
+                                    {{-- <a menuItemName="Network Status" href="/user/serverstatus.php"
                                         class="list-group-item" id="Secondary_Sidebar-Support-Network_Status">
                                         <i class="fas fa-ticket ls ls-range"></i>
                                         Network Status
-                                    </a>
-                                    <a menuItemName="Open Ticket" href="/user/submitticket.php" class="list-group-item"
+                                    </a> --}}
+                                    <a menuItemName="Open Ticket" href="/user/submitticket" class="list-group-item"
                                         id="Secondary_Sidebar-Support-Open_Ticket">
-                                        <i class="fas fa-ticket ls ls-new-window"></i>
+                                        {{-- <i class="fas fa-ticket ls ls-new-window"></i> --}}
                                         Open Ticket
                                     </a>
                                 </div>
@@ -225,7 +225,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm">
                                     <i class="ls ls-plus"></i>
                                     Generate new password
                                 </button>

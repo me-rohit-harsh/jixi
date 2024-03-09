@@ -1159,7 +1159,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-default btn-sm">
+                                <button type="button" class="btn btn-default btn-sm">
                                     <i class="ls ls-plus"></i>
                                     Generate new password
                                 </button>
