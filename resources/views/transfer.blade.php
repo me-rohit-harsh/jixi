@@ -37,7 +37,7 @@
                 <input type="checkbox" id="show-menu">
                 <ul class="links">
                     <li>
-                        <a href="/">Home</a </li>
+                        <a href="/">Home</a> </li>
                     <li>
                         <a href="#" class="desktop-link">Domains</a>
                         <input type="checkbox" id="show-domains">
@@ -53,7 +53,7 @@
 
                     <li><a href="/support/" class="nav-support btn-primry"><i
                                 class="fa-solid fa-headset"></i>Support</a></li>
-                    <li><a href="/user/clientarea.php" class="nav-login btn-secondry"><i
+                    <li><a href="/user/login" class="nav-login btn-secondry"><i
                                 class="fa-solid fa-user"></i>Login</a></li>
                 </ul>
                 <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
