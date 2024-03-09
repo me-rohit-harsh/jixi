@@ -6,18 +6,18 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Jixi Cloud",
-  "url": "https://jixicloud.com/",
+  "url": "https://jixicloud.net/",
   "logo": "https://jixicloud.com/assets/img/logo_main.svg",
   "alternateName": "Jixi Domains",
   "sameAs": [
-    "https://www.facebook.com/jixicloud"
+    "https://www.facebook.com/jixicloud.net"
   ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "telephone": "92573 04118",
+      "telephone": "906848745848",
       "contactType": "customer service",
-      "email": "help@jixicloud.com",
+      "email": "help@jixicloud.net",
       "areaServed": "IN",
       "availableLanguage": [
         "en",

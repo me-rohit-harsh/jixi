@@ -27,7 +27,7 @@
     
                         <ol class="breadcrumb">
                             <li>
-                                <a href="https://jixicloud.com/user"> Portal Home
+                                <a href="/"> Portal Home
                                 </a>
                             </li>
                             <li class="active">
