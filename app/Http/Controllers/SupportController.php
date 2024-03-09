@@ -10,4 +10,12 @@ class SupportController extends Controller
     {
         return view("support");
     }
+    public function userSupport()
+    {
+        return view("userSupport");
+    }
+    public function submitTicket()
+    {
+        return view("submitTicket");
+    }
 }

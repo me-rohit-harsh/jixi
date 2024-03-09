@@ -29,4 +29,12 @@ class CommonController extends Controller
     {
         return view('privacy');
     }
+    public function knowledgebase ()
+    {
+        return view('Knowledgebase');
+    }
+    public function announcements ()
+    {
+        return view('Announcements');
+    }
 }

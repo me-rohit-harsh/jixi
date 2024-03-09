@@ -11,4 +11,12 @@ class TransferController extends Controller
     {
         return view("transfer");
     }
+    public function userTransfer()
+    {
+        return view("userTransfer");
+    }
+    public function userPricing()
+    {
+        return view("userPricing");
+    }
 }

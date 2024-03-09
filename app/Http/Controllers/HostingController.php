@@ -13,4 +13,8 @@ class HostingController extends Controller
     public function purchaseHosting(){
         return view('purchaseHosting');
     }
+
+    public function cloudHosting(){
+        return view('userCloudHosting');
+    }
 }

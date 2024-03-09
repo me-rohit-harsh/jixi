@@ -11,4 +11,8 @@ class DomainController extends Controller
     {
         return view('domains');
     }
+    public function cart()
+    {
+        return view('userCart');
+    }
 }
