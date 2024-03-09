@@ -35,7 +35,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="supporttickets.php"> Support Tickets
+                            <a href="submitticket"> Support Tickets
                             </a>
                         </li>
                         <li class="active">
@@ -51,7 +51,7 @@
                     <div class="main-content  ">
 
 
-                        <form method="post" action="/user/submitticket.php?step=3" enctype="multipart/form-data"
+                        <form  enctype="multipart/form-data"
                             role="form">
                             <input type="hidden" name="token" value="698769c69ba02ae0fea05151d5d8a6c2685abc35" />
                             <div class="section">
@@ -137,7 +137,8 @@
                                             <div class="row">
                                                 <div class="col-md-9">
                                                     <div class="file-input form-control">
-                                                        <input type="file" name="attachments[]" id="inputAttachments"
+                                                        <input data-nofiletext="No file selected"
+                                                        data-selectfiletext="Select File" type="file" name="attachments[]" id="inputAttachments"
                                                             class="form-control" />
                                                         <span class="file-input-button btn btn-default">
                                                             Select File
@@ -150,8 +151,8 @@
                                                     <button type="button"
                                                         class="btn btn-primary-faded btn-block add-extra-attachement mob-m-t-2x"
                                                         data-nofiletext="No file selected"
-                                                        data-selectfiletext="Select File" data-removetext="Remove">
-                                                        <i class="ls ls-plus"></i>Add More
+                                                        data-selectfiletext="Select File" data-removetext="Remove" style="background: #E790ED; color:#fff;">
+                                                        <i class="fas fa-solid fa-plus"></i> Add More
                                                     </button>
                                                 </div>
                                             </div>
@@ -168,8 +169,8 @@
                             <div id="autoAnswerSuggestions" class="m-t-4x"></div>
                             <div class="form-actions">
                                 <input type="submit" id="openTicketSubmit" value="Submit"
-                                    class="btn btn-lg btn-primary disable-on-click" />
-                                <a href="supporttickets.php" class="btn btn-lg btn-default">Cancel</a>
+                                    class="SubmitButton btn btn-lg btn-primary disable-on-click" />
+                                <a href="submitticket" class=" btn btn-lg btn-default">Cancel</a>
                             </div>
                         </form>
                         <script>

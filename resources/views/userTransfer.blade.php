@@ -50,7 +50,7 @@
                                 <div class="list-group">
                                     <a menuItemName="Cloud Hosting" href="/user/store/cloud-hosting" class="list-group-item"
                                         id="Secondary_Sidebar-Categories-Cloud_Hosting">
-                                        <i class="ls ls-hosting"></i>
+                                        <i class="fas fa-solid fa-cloud"></i>
     
                                         Cloud Hosting
     
@@ -74,23 +74,23 @@
     
     
                                 <div class="list-group">
-                                    <a menuItemName="Domain Registration" href="/user/cart.php?a=add&domain=register"
+                                    <a menuItemName="Domain Registration" href="/user/domain?a=add&domain=register"
                                         class="list-group-item" id="Secondary_Sidebar-Actions-Domain_Registration">
-                                        <i class="fas fa-ticket ls ls-dns"></i>&nbsp;
+                                        <i class="fas fa-solid fa-globe"></i>&nbsp;
     
                                         Register a New Domain
     
                                     </a>
-                                    <a menuItemName="Domain Transfer" href="/user/cart.php?a=add&domain=transfer"
+                                    <a menuItemName="Domain Transfer" href="/user/domain?a=add&domain=transfer"
                                         class="list-group-item active" id="Secondary_Sidebar-Actions-Domain_Transfer">
-                                        <i class="fas fa-ticket ls ls-transfer"></i>&nbsp;
+                                        <i class="fas fa-solid fa-arrow-right"></i>&nbsp;
     
                                         Transfer in a Domain
     
                                     </a>
-                                    <a menuItemName="View Cart" href="/user/cart.php?a=view" class="list-group-item"
+                                    <a menuItemName="View Cart" href="/user/cart" class="list-group-item"
                                         id="Secondary_Sidebar-Actions-View_Cart">
-                                        <i class="fas fa-ticket ls ls-basket"></i>&nbsp;
+                                        <i class="fa fa-shopping-cart"></i>&nbsp;
     
                                         View Cart
     
@@ -121,20 +121,20 @@
                                             <li class="dropdown-title h6">Actions</li>
                                             <li>
                                                 <a menuItemName="Domain Registration"
-                                                    href="/user/cart.php?a=add&domain=register" class=""
+                                                    href="/user/domain?a=add&domain=register" class=""
                                                     id="Secondary_Sidebar-Actions-Domain_Registration">
                                                     Register a New Domain
                                                 </a>
                                             </li>
                                             <li>
                                                 <a menuItemName="Domain Transfer"
-                                                    href="/user/cart.php?a=add&domain=transfer" class=" active"
+                                                    href="/user/domain?a=add&domain=transfer" class=" active"
                                                     id="Secondary_Sidebar-Actions-Domain_Transfer">
                                                     Transfer in a Domain
                                                 </a>
                                             </li>
                                             <li>
-                                                <a menuItemName="View Cart" href="/user/cart.php?a=view" class=""
+                                                <a menuItemName="View Cart" href="/user/cart" class=""
                                                     id="Secondary_Sidebar-Actions-View_Cart">
                                                     View Cart
                                                 </a>
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                             <h5 >Transfer now to extend your domain by 1 year!*</h5>
-                            <form method="post" action="/user/cart.php" id="frmDomainTransfer">
+                            <form method="post" action="/user/domain" id="frmDomainTransfer">
                                 <input type="hidden" name="token" value="698769c69ba02ae0fea05151d5d8a6c2685abc35" />
                                 <input type="hidden" name="a" value="addDomainTransfer">
                                 <input name="epp" type="hidden" value="">
@@ -163,7 +163,7 @@
                                                 </div>
                                                 <button type="submit" id="btnTransferDomain"
                                                     class="btn btn-primary SubmitButton btn-transfer ">
-                                                    <span id="addToCart"><i class="ls ls-basket m-r-8"></i>Order Now</span>
+                                                    <span id="addToCart">Order Now</span>
                                                     <span class="loader loader-button">
     
                                                         <div class="spinner spinner-sm">

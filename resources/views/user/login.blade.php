@@ -47,7 +47,7 @@
                                 <div class="form-group">
                                     <div class="d-flex space-between">
                                         <label for="inputPassword">Password</label>
-                                        <a href="/user/password/reset" tabindex="3">Forgot?</a>
+                                        <a href="/user/password/reset" tabindex="3" style="color: darkorchid">Forgot?</a>
                                     </div>
                                     <input type="password" name="password" class="form-control input-lg"
                                         id="inputPassword" placeholder="Password" autocomplete="off" tabindex="2">
@@ -178,7 +178,7 @@
                             </div>
                         </div>
                         <div class="login-footer">
-                            <div class="text-light">Not a member yet? <a href="/user/register" tabindex="5">Create a
+                            <div class="text-light">Not a member yet? <a style="color: darkorchid" href="/user/register" tabindex="5">Create a
                                     New Account</a></div>
                         </div>
                     </div>

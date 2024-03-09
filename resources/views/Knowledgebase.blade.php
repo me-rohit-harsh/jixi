@@ -15,23 +15,7 @@
 @extends('layout.app')
 @section('content')
     <body class="lagom lagom-not-portal lagom-layout-top lagom-default page-knowledgebase " data-phone-cc-input="1">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
         <div class="app-main ">
             <div class="main-header">
                 <div class="container">
@@ -69,7 +53,7 @@
                                         </h5>
                                     </div>
                                     <div class="list-group">
-                                        <a menuItemName="Support Tickets" href="/user/supporttickets.php"
+                                        <a menuItemName="Support Tickets" href="/user/submitticket"
                                             class="list-group-item" id="Secondary_Sidebar-Support-Support_Tickets">
                                             <i class="fas fa-ticket ls ls-ticket-tag"></i>
                                             My Support Tickets
@@ -271,9 +255,6 @@
     
     
         <div class="overlay"></div>
-        <script src="/user/templates/lagom2/assets/js/vendor.js?v=2.1.2"></script>
-        <script src="/user/templates/lagom2/assets/js/lagom-app.js?v=2.1.2"></script>
-        <script src="/user/templates/lagom2/assets/js/whmcs-custom.min.js?v=2.1.2"></script>
     </body>
 @endsection
 

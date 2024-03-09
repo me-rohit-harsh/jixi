@@ -181,7 +181,7 @@
                             </div>
                             <div class="tld-search search-group">
                                 <div class="search-field">
-                                    <i class="search-field-icon lm lm-search"></i>
+                                    <i class="search-field-icon fa-solid fa-magnifying-glass"></i>
                                     <input type="text" id="table-search" class="form-control"
                                         placeholder="Enter search term...">
                                 </div>
