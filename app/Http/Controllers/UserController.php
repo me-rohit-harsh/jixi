@@ -17,4 +17,7 @@ class UserController extends Controller
     public function resetPassword(){
         return view('user/resetPassword');
     }
+    public function userCart(){
+        return view('viewCart');
+    }
 }

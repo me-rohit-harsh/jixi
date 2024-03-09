@@ -17,7 +17,7 @@ Route::get('/blog', function () {
 });
 
 Route::get("/domains", [DomainController::class, 'domains'])->name('jixi.domains');
-Route::get("/user/cart", [DomainController::class, 'cart'])->name('jixi.cart');
+Route::get("/user/domain", [DomainController::class, 'cart'])->name('jixi.cart.domain');
 
 Route::get("/user/domain/pricing", [TransferController::class, 'userPricing'])->name('jixi.user.pricing');
 Route::get("/user/transfer", [TransferController::class, 'userTransfer'])->name('jixi.user.transfer');
@@ -27,6 +27,7 @@ Route::get("user/submitticket", [SupportController::class, 'submitTicket'])->nam
 Route::get("/user/register", [UserController::class, 'register'])->name('user.register');
 Route::get("/user/login", [UserController::class, 'login'])->name('user.login');
 Route::get("/user/password/reset", [UserController::class, 'resetPassword'])->name('user.reset.password');
+Route::get("/user/cart", [UserController::class, 'userCart'])->name('user.cart');
 
 
 

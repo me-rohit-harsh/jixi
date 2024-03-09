@@ -1202,7 +1202,7 @@
                                                 <input class="icheck-control accepttos" type="checkbox"
                                                     name="accepttos">
                                                 <span class="label-required">I have read and agree to the <a
-                                                        href="https://jixicloud.com/privacy" target="_blank">Terms of
+                                                        href="/privacy" target="_blank" style="color: darkorchid">Terms of
                                                         Service</a></span>
                                             </label>
                                         </div>
@@ -1230,8 +1230,8 @@
 
                         </div>
                         <div class="login-footer">
-                            <div class="text-center text-light">Already registered with us? <a href="/user/login">Sign
-                                    In</a> <span class="text-lowercase">Or</span> <a href="/user/password/reset">Reset
+                            <div class="text-center text-light">Already registered with us? <a href="/user/login" style="color: darkorchid">Sign
+                                    In</a> <span class="text-lowercase">Or</span> <a href="/user/password/reset" style="color: darkorchid">Reset
                                     Password</a></div>
                         </div>
                     </div>

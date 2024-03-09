@@ -147,7 +147,7 @@
                             </svg>
                         </div>
                         <h3>Support Ticket</h3>
-                        <p><a href="/user/submitticket.php?step=2&deptid=1">Submit Support ticket</a></p>
+                        <p><a href="/user/submitticket">Submit Support ticket</a></p>
                         <p class="small-text">Available - 24x7 hours</p>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                     <div class="gmj-btns flex">
                         <a href="https://api.whatsapp.com/send/?phone=9188540 37588&text=Hello%20Sir,%20I%20have%20a%20query"
                             class="btn-primry tawk-button"><i class="fa-brands fa-whatsapp"></i> Live Chat</a>
-                        <a href="/user/submitticket.php?step=2&deptid=1" class="btn-secondry"><i
+                        <a href="/user/submitticket" class="btn-secondry"><i
                                 class="fas fa-ticket-alt"></i> Support Ticket</a>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                     Useful Links
                 </h2>
                 <ul>
-                    <li><a href="/user/submitticket.php?step=2&deptid=2">Submit Ticket</a></li>
+                    <li><a href="/user/submitticket">Submit Ticket</a></li>
                     <li><a href="/blog">Read Our Blog</a></li>
                 </ul>
             </div>

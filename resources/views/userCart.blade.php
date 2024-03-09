@@ -66,7 +66,7 @@
                                 <div class="list-group">
                                     <a menuItemName="Cloud Hosting" href="/user/store/cloud-hosting" class="list-group-item"
                                         id="Secondary_Sidebar-Categories-Cloud_Hosting">
-                                        <i class="ls ls-hosting"></i>
+                                        <i class="fas fa-solid fa-cloud"></i>
     
                                         Cloud Hosting
     
@@ -90,23 +90,22 @@
     
     
                                 <div class="list-group">
-                                    <a menuItemName="Domain Registration" href="/user/cart" class="list-group-item active"
+                                    <a menuItemName="Domain Registration" href="/user/domain" class="list-group-item active"
                                         id="Secondary_Sidebar-Actions-Domain_Registration">
-                                        <i class="fas fa-ticket ls ls-dns"></i>&nbsp;
+                                      <i class="fas fa-solid fa-globe"></i>
     
                                         Register a New Domain
     
                                     </a>
                                     <a menuItemName="Domain Transfer" href="/user/transfer" class="list-group-item"
                                         id="Secondary_Sidebar-Actions-Domain_Transfer">
-                                        <i class="fas fa-ticket ls ls-transfer"></i>&nbsp;
-    
+                                      <i class="fas fa-solid fa-arrow-right"></i>
                                         Transfer in a Domain
     
                                     </a>
                                     <a menuItemName="View Cart" href="/user/cart" class="list-group-item"
                                         id="Secondary_Sidebar-Actions-View_Cart">
-                                        <i class="fas fa-ticket ls ls-basket"></i>&nbsp;
+                                        <i class="fa fa-shopping-cart"></i>
     
                                         View Cart
     
@@ -137,20 +136,20 @@
                                             <li class="dropdown-title h6">Actions</li>
                                             <li>
                                                 <a menuItemName="Domain Registration"
-                                                    href="/user/cart.php?a=add&domain=register" class=" active"
+                                                    href="/user/domain?a=add&domain=register" class=" active"
                                                     id="Secondary_Sidebar-Actions-Domain_Registration">
                                                     Register a New Domain
                                                 </a>
                                             </li>
                                             <li>
                                                 <a menuItemName="Domain Transfer"
-                                                    href="/user/cart.php?a=add&domain=transfer" class=""
+                                                    href="/user/domain?a=add&domain=transfer" class=""
                                                     id="Secondary_Sidebar-Actions-Domain_Transfer">
                                                     Transfer in a Domain
                                                 </a>
                                             </li>
                                             <li>
-                                                <a menuItemName="View Cart" href="/user/cart.php?a=view" class=""
+                                                <a menuItemName="View Cart" href="/user/cart" class=""
                                                     id="Secondary_Sidebar-Actions-View_Cart">
                                                     View Cart
                                                 </a>
@@ -160,12 +159,12 @@
                                 </div>
                             </div>
                             <div class="search-box search-box-secondary">
-                                <form method="post" action="/user/cart.php" id="frmDomainChecker">
+                                <form method="post" action="/user/domain" id="frmDomainChecker">
                                     <input type="hidden" name="token" value="698769c69ba02ae0fea05151d5d8a6c2685abc35" />
                                     <input type="hidden" name="a" value="checkDomain">
                                     <div class="domain-search-input search-group">
                                         <div class="search-field search-field-lg">
-                                            <i class="search-field-icon lm lm-search"></i>
+                                            <i class="search-field-icon fa-solid fa-magnifying-glass"></i>
                                             <input class="form-control form-control-lg" type="text" name="domain"
                                                 placeholder="Find your new domain name" value="" id="inputDomain"
                                                 data-toggle="tooltip" data-delay="100" data-placement="top"
@@ -910,7 +909,7 @@
                                         </div>
                                         <div class="tld-search search-group">
                                             <div class="search-field">
-                                                <i class="search-field-icon lm lm-search"></i>
+                                               <i class="search-field-icon fa-solid fa-magnifying-glass"></i>
                                                 <input type="text" id="table-search" class="form-control"
                                                     placeholder="Enter search term...">
                                             </div>
@@ -1559,7 +1558,7 @@
                                                     <div class="promo-box-content promo-box-content-between">
                                                         <p class="promo-description">We have packages designed to fit every
                                                             budget</p>
-                                                        <a href="/user/cart" class=" SubmitButton btn btn-primary">
+                                                        <a href="/user/domain" class=" SubmitButton btn btn-primary">
                                                             Explore packages now
                                                         </a>
                                                     </div>

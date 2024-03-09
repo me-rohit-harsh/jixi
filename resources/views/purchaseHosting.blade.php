@@ -94,7 +94,7 @@
                                                 </div>
                                                 <div class="dropdown-menu dropdown-menu-search pull-right">
                                                     <div class="dropdown-header input-group align-center">
-                                                        <i class="input-group-icon lm lm-search"></i>
+                                                        <i class="input-group-icon fa-solid fa-magnifying-glass"></i>
                                                         <input class="form-control" placeholder="Search..." type="text"
                                                             data-dropdown-select-search>
                                                     </div>
@@ -354,7 +354,7 @@
                             </div>
                         </form>
     
-                        <form method="post" action="/user/cart" id="frmProductDomainSelections">
+                        <form method="post" action="/user/domain" id="frmProductDomainSelections">
                             <input type="hidden" name="token" value="fe7e65f49381686de922bdada0cdb89c8918825d" />
     
                             <input type="hidden" id="resultDomainOption" name="domainoption" />

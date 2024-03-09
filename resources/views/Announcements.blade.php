@@ -75,7 +75,7 @@
                                     </h5>
                                 </div>
                                 <div class="list-group">
-                                    <a menuItemName="Support Tickets" href="/user/supporttickets.php"
+                                    <a menuItemName="Support Tickets" href="/user/submitticket"
                                         class="list-group-item" id="Secondary_Sidebar-Support-Support_Tickets">
                                         <i class="fas fa-ticket ls ls-ticket-tag"></i>
                                         My Support Tickets

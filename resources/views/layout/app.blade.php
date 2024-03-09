@@ -26,7 +26,9 @@
 <script src="https://jixicloud.com/user/templates/lagom2/assets/js/whmcs-custom.min.js?v=2.1.2"></script>
 <link rel="stylesheet" href="https://www.ambitionhost.in/user/templates/lagom2/assets/css/theme.css">
   {{-- custom style  --}}
-
+<!-- font-awesome icon css  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 <style>
     .panel-domain-search-secondary {
         background: #A642AE;
@@ -67,7 +69,6 @@
     }
     .dropdown-item:focus, .dropdown-item:hover, .dropdown-menu-item>a:focus, .dropdown-menu-item>a:hover,
     .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    text-decoration: none;
     color: #A642AE !important;
     }
     .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item.active,
@@ -85,7 +86,7 @@
     border-radius: var(--panel-sidebar-link-border-radius);
     color: #000 !important;
     }
-    .banner-secondary, .search-box-secondary {
+    .panel-summary-primary,.banner-secondary, .search-box-secondary {
     background: #A642AE;
     }.pagination>.active .page-link, .pagination>.active .page-link:focus, .pagination>.active .page-link:hover,
     .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span,
@@ -105,6 +106,42 @@
     .svg-icon-prime-l.svg-icon-stroke,.svg-icon-prime.svg-icon-stroke{
         fill: #A642AE
     }
+    .dropdown-item:focus>i, .dropdown-item:hover>i, .dropdown-menu-item>a:focus>i, .dropdown-menu-item>a:hover>i,
+    .dropdown-menu>li>a:focus>i, .dropdown-menu>li>a:hover>i ,.dropdown-menu .dropdown-item>i, .dropdown-menu .dropdown-menu-item>a>i, .dropdown-menu>li>a>i {
+    color: #A642AE;
+    }
+    .search-field-icon,.banner-secondary .domain-search-input .search-field-icon, .banner-secondary .domain-search-input .search-field-icon>i,
+        .search-box-secondary .domain-search-input .search-field-icon, .search-box-secondary .domain-search-input
+        .search-field-icon>i ,ul.top-nav>li>a:not(.btn):active>.ls-caret, ul.top-nav>li>a:not(.btn):active>i,
+    ul.top-nav>li>a:not(.btn):focus>.ls-caret, ul.top-nav>li>a:not(.btn):focus>i, ul.top-nav>li>a:not(.btn):hover>.ls-caret,
+    ul.top-nav>li>a:not(.btn):hover>i ,ul.top-nav>li>a:not(.btn):active, ul.top-nav>li>a:not(.btn):focus, ul.top-nav>li>a:not(.btn):hover ,.lagom-layout-top .app-nav-menu .menu>li.active>a:focus:not(.btn)>b, .lagom-layout-top .app-nav-menu
+    .menu>li.active>a:focus:not(.btn)>i, .lagom-layout-top .app-nav-menu .menu>li.active>a:hover:not(.btn)>b,
+    .lagom-layout-top .app-nav-menu .menu>li.active>a:hover:not(.btn)>i, .lagom-layout-top .app-nav-menu
+    .menu>li.active>a:not(.btn)>b, .lagom-layout-top .app-nav-menu .menu>li.active>a:not(.btn)>i, .lagom-layout-top
+    .app-nav-menu .menu>li.open>a:focus:not(.btn)>b, .lagom-layout-top .app-nav-menu .menu>li.open>a:focus:not(.btn)>i,
+    .lagom-layout-top .app-nav-menu .menu>li.open>a:hover:not(.btn)>b, .lagom-layout-top .app-nav-menu
+    .menu>li.open>a:hover:not(.btn)>i, .lagom-layout-top .app-nav-menu .menu>li.open>a:not(.btn)>b, .lagom-layout-top
+    .app-nav-menu .menu>li.open>a:not(.btn)>i, .lagom-layout-top .app-nav-menu .menu>li>a:focus:not(.btn)>b,
+    .lagom-layout-top .app-nav-menu .menu>li>a:focus:not(.btn)>i, .lagom-layout-top .app-nav-menu
+    .menu>li>a:hover:not(.btn)>b, .lagom-layout-top .app-nav-menu .menu>li>a:hover:not(.btn)>i {
+    color: #db6de3;
+    }
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item.active>i,
+        .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item:focus>i,
+        .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item:hover>i ,.panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item>i {
+    color: #000;
+    }
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item.active:focus>i,
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item.active:hover>i,
+    .panel-sidebar:not(.panel-summary):not(.panel-styled-group) .list-group>a.list-group-item.active>i {
+    color: #fff;
+    }
+.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover, .dropdown-menu-item.active>a,
+.dropdown-menu-item.active>a:focus, .dropdown-menu-item.active>a:hover, .dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+background-color: #ec8cf3;
+color: #fff;
+}
 </style>
 <!-- Header -->
     <header>
@@ -126,7 +163,7 @@
         
                         <li menuItemName="View Cart" class="  nav-item-cart" id="Secondary_Navbar-View_Cart">
                             <a href="/user/cart">
-                                <i class="fas fa-test lm lm-basket"></i>
+                                <i class="fa fa-shopping-cart"> </i>
                                 <span class="item-text">View Cart</span>
                                 <span class="nav-badge badge badge-primary-faded hidden"><span></span></span> </a>
                         </li>
@@ -182,7 +219,7 @@
                                 <li menuItemName="Cloud Hosting" class=" "
                                     id="Primary_Navbar-footer_extended.products-Cloud_Hosting">
                                     <a href="/user/store/cloud-hosting">
-                                        <i class="fas fa-ticket ls ls-hosting"></i>
+                                       <i class="fas fa-solid fa-cloud"></i>
                                         Cloud Hosting
                                     </a>
                                 </li>
@@ -215,8 +252,8 @@
         
                                 <li menuItemName="Register a New Domain" class=" "
                                     id="Primary_Navbar-Domains-Register_a_New_Domain">
-                                    <a href="/user/cart">
-                                        <i class="fas fa-test lm lm-globe"></i>
+                                    <a href="/user/domain">
+                                       <i class="fas fa-solid fa-globe"></i>
                                         Register a New Domain
                                     </a>
                                 </li>
@@ -224,7 +261,7 @@
                                 <li menuItemName="Transfer Domains to Us" class=" "
                                     id="Primary_Navbar-Domains-Transfer_Domains_to_Us">
                                     <a href="/user/transfer">
-                                        <i class="fas fa-test ls ls-transfer"></i>
+                                    <i class="fas fa-solid fa-arrow-right"></i>
                                         Transfer Domains to Us
                                     </a>
                                 </li>
@@ -235,7 +272,7 @@
         
                                 <li menuItemName="Domain Pricing" class=" " id="Primary_Navbar-Domains-Domain_Pricing">
                                     <a href="/user/domain/pricing">
-                                        <i class="fas fa-test ls ls-document-info"></i>
+                                      <i class="fas fa-solid fa-money-bill-wave"></i>
                                         Domain Pricing
                                     </a>
                                 </li>
@@ -281,7 +318,7 @@
         
                                 <li menuItemName="Contact Us" class=" " id="Primary_Navbar-Support-Contact_Us">
                                     <a href="/user/contact">
-                                        <i class="fas fa-test ls ls-chat-clouds"></i>
+                                      <i class="fas fa-regular fa-id-badge"></i>
                                         Contact Us
                                     </a>
                                 </li>
@@ -292,21 +329,21 @@
         
                                 <li menuItemName="Network Status" class=" " id="Primary_Navbar-Support-Network_Status">
                                     <a href="/user/serverstatus">
-                                        <i class="fas fa-test ls ls-spark"></i>
+                                       <i class="fas fa-solid fa-signal"></i>
                                         Network Status
                                     </a>
                                 </li>
         
                                 <li menuItemName="Knowledgebase" class=" " id="Primary_Navbar-Support-Knowledgebase">
                                     <a href="/user/knowledgebase">
-                                        <i class="fas fa-test ls ls-document-info"></i>
+                                        <i class="far fa-regular fa-file"></i>
                                         Knowledgebase
                                     </a>
                                 </li>
         
                                 <li menuItemName="News" class=" " id="Primary_Navbar-Support-News">
                                     <a href="/user/announcements">
-                                        <i class="fas fa-test ls ls-document"></i>
+                                      <i class="far fa-regular fa-newspaper"></i>
                                         News
                                     </a>
                                 </li>
@@ -354,7 +391,7 @@
                             <input type="hidden" data-language-select-backlink value="/user/login?">
                             <input type="hidden" data-language-select-lang value="Select">
                             <div class="dropdown-header input-group align-center">
-                                <i class="input-group-icon lm lm-search"></i>
+                                <i class=" input-group-icon fa-solid fa-magnifying-glass"></i>
                                 <input class="form-control" placeholder="Search..." type="text" data-language-select-search>
                             </div>
                             <div class="nav-divider"></div>
@@ -525,7 +562,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <i class="lm lm-go-top"></i>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
                         </a>
                     </li>
                 </ul>
